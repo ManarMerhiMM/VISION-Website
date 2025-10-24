@@ -9,11 +9,10 @@ This repository hosts the **React-based** website, serving as a user-friendly in
 
 The VISION ecosystem consists of three main layers working together:
 
-- **Frontend (React.js):** Web dashboard for user management, data visualization, and configuration (this repo).  
-- **Mobile App (React Native):** Interfaces with the wearable system, presents real-time biometrics, and syncs with this API.  
-- **Backend (Laravel API):** Central hub for authentication, data persistence, and business logic. 
-- **Database (MySQL):** Stores all persistent data, accessible only through the API.  
-
+- **Frontend (React.js):** Web dashboard for user management, data visualization, and configuration (this repo).
+- **Mobile App (React Native):** Interfaces with the wearable system, presents real-time biometrics, and syncs with this API.
+- **Backend (Laravel API):** Central hub for authentication, data persistence, and business logic.
+- **Database (MySQL):** Stores all persistent data, accessible only through the API.
 
 ---
 
@@ -22,19 +21,20 @@ The VISION ecosystem consists of three main layers working together:
 - 📊 **Dashboard & data visualization** for historical readings, device statistics, and trends
 - 🧩 **Forms & client-side validation** for settings, preferences, and updates
 - 🗂️ **State management & caching** using Context or Redux for UI state
-- ♿ **Responsive & accessible UI** for desktop and tablet screens, also accessibility tools dedicated to the visually-impaired are implemented 
+- ♿ **Responsive & accessible UI** for desktop and tablet screens, also accessibility tools dedicated to the visually-impaired are implemented
 - 🗃️ **Exporting & reporting** of historical data as CSV or PDF (admin-only)
 
 ♿ Responsive & accessible UI for desktop and tablet
+
 ## 🧰 Tech Stack
 
-| Layer | Technology |
-|-------|-------------|
-| Framework | React 19.1.1 |
-| Authentication | Laravel Sanctum (API Tokens) |
-| API Format | REST (JSON) |
-| Frontends | React (Web) + React Native (Mobile) |
-| Version Control | Git & GitHub |
+| Layer           | Technology                          |
+| --------------- | ----------------------------------- |
+| Framework       | React 19.1.1                        |
+| Authentication  | Laravel Sanctum (API Tokens)        |
+| API Format      | REST (JSON)                         |
+| Frontends       | React (Web) + React Native (Mobile) |
+| Version Control | Git & GitHub                        |
 
 ---
 
@@ -43,29 +43,36 @@ The VISION ecosystem consists of three main layers working together:
 Follow these steps to run the **VISION React frontend** locally:
 
 ### 1️⃣ Clone the repository
+
 ```bash
-git clone https://github.com/ManarMerhiMM/VISION-Frontend.git
+git clone https://github.com/ManarMerhiMM/VISION-Website.git
 cd vision-frontend
 ```
+
 ### 2️⃣ Install dependencies
+
 ```bash
 npm install
 ```
 
 ### 3️⃣ Configure environment variables
+
 All can be found in the .env file
 
 ### 4️⃣ Start the development server
+
 ```bash
 npm run dev
 ```
 
 ### 5️⃣ Build for production
+
 ```bash
 npm run build
 ```
 
 ### 6️⃣ Preview production build
+
 ```bash
 npm run preview
 ```
@@ -92,18 +99,19 @@ npm run preview
 ## 👥 Contributors
 
 **VISION Development Team**  
-Final Year Project — Computer Engineering Department  
+Final Year Project — Computer Engineering Department
 
-| Role | Name |
-|------|------|
-| Backend Developer | Manar Merhi |
-| Frontend Developer (Web) | Malek Shibli |
-| Mobile Developer (React Native) | Manar Merhi |
-| Embedded Systems / Hardware | Mohammad Shaaban |
-| Computer Vision and ML | Mohammad El Halabi |
-| Biometric Processing | Abdulrahman Nakouzi |
-
+| Role                            | Name                |
+| ------------------------------- | ------------------- |
+| Backend Developer               | Manar Merhi         |
+| Frontend Developer (Web)        | Malek Shibli        |
+| Mobile Developer (React Native) | Manar Merhi         |
+| Embedded Systems / Hardware     | Mohammad Shaaban    |
+| Computer Vision and ML          | Mohammad El Halabi  |
+| Biometric Processing            | Abdulrahman Nakouzi |
 
 ### 📄 License
+
 This project is developed for **academic** and **research** purposes.
+
 ###### © 2025 VISION Project Team — All rights reserved.

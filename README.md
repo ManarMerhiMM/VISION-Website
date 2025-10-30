@@ -90,7 +90,7 @@ npm run preview
 
 ## 🧠 System Data Flow (concerning the website and mobile application)
 
-1. Raspberry Pi collects live processed biometric data (SPO2 and BPM).
+1. Raspberry Pi collects live processed biometric data (SPO2, Heart Rate, Galvanic Skin Resistance, and Relative Humidity).
 2. React Native mobile app connects via BLE and displays the data (live).
 3. Mobile app periodically sends readings to the Laravel API over HTTPS.
 4. API validates, stores, and aggregates readings in MySQL.
